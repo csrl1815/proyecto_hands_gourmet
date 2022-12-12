@@ -11,7 +11,6 @@ import proyecto_g7.demo.entity.Clientes;
 
 @Service
 public class UserService implements UserDetailsService{
-    
     @Autowired
     public IClientesService clientesService;
     
