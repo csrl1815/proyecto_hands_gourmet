@@ -14,9 +14,10 @@
 	<name>proyecto_g7</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
+            
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
@@ -43,12 +44,23 @@
 	 <dependency>
 	  <groupId>mysql</groupId>
 	  <artifactId>mysql-connector-java</artifactId>
-          
 	 </dependency>
 	 <dependency>
 	  <groupId>org.springframework.boot</groupId>
 	  <artifactId>spring-boot-starter-web</artifactId>
 	 </dependency>
+         <dependency>
+             <groupId>org.springframework.boot</groupId>
+             <artifactId>spring-boot-starter-security</artifactId>
+         </dependency>
+         <dependency>
+             <groupId>org.thymeleaf.extras</groupId>
+             <artifactId>thymeleaf-extras-springsecurity5</artifactId>
+         </dependency>
+         <dependency>
+             <groupId>javax.validation</groupId>
+             <artifactId>validation-api</artifactId>
+         </dependency>
 	</dependencies>
 
 	<build>
