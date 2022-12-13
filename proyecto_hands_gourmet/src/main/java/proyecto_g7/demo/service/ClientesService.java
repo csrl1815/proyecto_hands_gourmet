@@ -18,8 +18,12 @@ public class ClientesService implements IClientesService {
     }
 
     @Override
-    public Clientes findByEmail(String email) {
-        return clientesRepository.findByEmail(email);
+    public Clientes findByNombre(String nombre) {
+        return clientesRepository.findByNombre(nombre);
     }
+
+    
+
+    
     
 }

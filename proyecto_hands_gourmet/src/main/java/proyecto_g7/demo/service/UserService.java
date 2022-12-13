@@ -16,7 +16,7 @@ public class UserService implements UserDetailsService{
     
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Clientes clientes = this.clientesService.findByEmail(username);
+        Clientes clientes = this.clientesService.findByNombre(username);
         Userprincipal userPrincipal = new Userprincipal(clientes);
         return userPrincipal;
     }

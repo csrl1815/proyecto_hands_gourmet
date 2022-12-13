@@ -58,12 +58,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
         http.authorizeRequests()
                 .antMatchers("/clientes","/login","/productos","/inventario","/ordenes","/factura")
                 .hasRole("ADMIN")
-                .antMatchers("/clientes","/login","/productos","/factura")
+                .antMatchers("/clientes","/login","/productos","/factura","/")
                 .hasAnyRole("USER","ADMIN")
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                .loginPage("/login").permitAll().defaultSuccessUrl("index.html",true);
+                .loginPage("/login").permitAll().defaultSuccessUrl("/productos",true);
     
     }
 }

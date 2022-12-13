@@ -7,5 +7,5 @@ import proyecto_g7.demo.entity.Clientes;
 
 public interface IClientesService {
     public List<Clientes> getAllClientes();
-    public Clientes findByEmail (String email);
+    public Clientes findByNombre (String nombre);
 }
