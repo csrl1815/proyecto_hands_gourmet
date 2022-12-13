@@ -1,10 +1,10 @@
 
 package proyecto_g7.demo;
 
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+/*import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;*/
 
 
-public class Encriptar {
+/*public class Encriptar {
    public static void main(String[] args) {
        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
        var claveJuan = encoder.encode("123");
@@ -15,4 +15,4 @@ public class Encriptar {
         System.out.println("Rebeca (456):"+ claveRebeca);
          System.out.println("Pedro (789):"+ clavePedro);
    }
-}
+}*/

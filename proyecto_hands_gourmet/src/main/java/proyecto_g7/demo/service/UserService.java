@@ -1,7 +1,8 @@
 
 package proyecto_g7.demo.service;
 
-import java.util.ArrayList;
+/*import java.util.ArrayList;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -44,4 +45,4 @@ public class UserService implements UserDetailsService{
 
    
     
-}
+}*/

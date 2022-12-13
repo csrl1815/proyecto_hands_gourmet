@@ -1,16 +1,20 @@
 
 package proyecto_g7.demo.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+/*import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
-@Controller
+@RestController
 public class LoginController {
-    
-    @GetMapping("/login")
-    public String index(){
-     return "/login";
+   
+    @GetMapping("/home")
+    public String home(){
+        return "This is Home Page";
     }
     
-}
+     @GetMapping("/admin")
+    public String admin(){
+        return "This is Admin Page";
+    }
+}*/

@@ -1,7 +1,7 @@
 
 package proyecto_g7.demo;
 
-import org.springframework.context.annotation.Configuration;
+/*import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -14,4 +14,4 @@ public class WebConfig implements WebMvcConfigurer{
         registro.addViewController("/errores/403").setViewName("/errores/403");
     }  
     
-}
+}*/
