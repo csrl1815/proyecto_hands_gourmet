@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Sobre Nosotros</title>
+    <title>Checkout Hands Gourmet</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body class="goto-here">
+ <body class="goto-here">
 		<div class="py-1 bg-primary">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
@@ -52,7 +52,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="img/hands.png" alt="alt" style="width: 98px"/></a>
+                <a class="navbar-brand" href="index.html"><img src="img/hands.png" style="width: 98px"/></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -64,7 +64,7 @@
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Compras</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
               	<a class="dropdown-item" href="/productos">Compras</a>
-                <a class="dropdown-item" href="cart.html">Carrito</a>
+                <a class="dropdown-item" href="/carrito">Carrito</a>
                 <a class="dropdown-item" href="/factura">Factura</a>
               </div>
             </li>
@@ -78,94 +78,158 @@
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap hero-bread" style="background-image: url('img/foto1.jpg');">
+    <div class="hero-wrap hero-bread" style="background-image: url('img/foto4.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Inicio</a></span> <span>Sobre Nosotros</span></p>
-            <h1 class="mb-0 bread">Sobre Nosotros</h1>
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Inicio</a></span> <span>Checkout</span></p>
+            <h1 class="mb-0 bread">Checkout</h1>
           </div>
         </div>
       </div>
     </div>
 
-    <section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-5 p-md-5 img img-2 d-flex justify-content-center align-items-center" style="background-image: url(img/foto25.jpg);">
-						<a href="https://vimeo.com/45830194" class="icon popup-vimeo d-flex justify-content-center align-items-center">
-							<span><img src="img/icon-shopping_cart.png" style="width: 30px"></span>
-						</a>
-					</div>
-					<div class="col-md-7 py-5 wrap-about pb-md-5 ftco-animate">
-	          <div class="heading-section-bold mb-4 mt-md-5">
-	          	<div class="ml-md-0">
-		            <h2 class="mb-4">Bienvenidos a Hands Gourmet</h2>
+    <section class="ftco-section">
+      
+      <div class="container">
+        <div class="row justify-content-center">
+            
+          
+						<form action="#" class="billing-form">
+							<h3 class="mb-4 billing-heading">Detalles de Envio</h3>
+	          	<div class="row align-items-end">
+	          		<div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="firstname">Nombre:</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
+	              <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="lastname">Apellido:</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
+                <div class="w-100"></div>
+		            <div class="col-md-12">
+		            	<div class="form-group">
+		            		<label for="country">Provincia</label>
+		            		<div class="select-wrap">
+		                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+		                  <select name="" id="" class="form-control">
+		                  	<option value="">San José</option>
+		                    <option value="">Cartago</option>
+		                    <option value="">Limón</option>
+		                    <option value="">Puntarenas</option>
+		                    <option value="">Heredia</option>
+		                    <option value="">Alajuela</option>
+		                  </select>
+		                </div>
+		            	</div>
+		            </div>
+                  	<div class="row align-items-end">
+	          		<div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="firstname">Cantón:</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
+	              <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="lastname">Distrito:</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
+		            <div class="w-100"></div>
+		            <div class="col-md-6">
+		            	<div class="form-group">
+	                	<label for="streetaddress">Direccion Exacta</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+		            </div>
+		            
+		            <div class="w-100"></div>
+		            <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="phone">Número de telefono</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+	              </div>
+	              <div class="col-md-6">
+	                <div class="form-group">
+	                	<label for="emailaddress">Correo electrónico</label>
+	                  <input type="text" class="form-control" placeholder="">
+	                </div>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-md-12">
+                	<div class="form-group mt-4">
+										<div class="radio">
+										  <label><input type="radio" name="optradio"> Enviar a una direccion distinta</label>
+										</div>
+									</div>
+                </div>
 	            </div>
-	          </div>
-	          <div class="pb-md-5">
-	          	<p>Hands Gourmet es un emprendimiento que se enfoca en el negocio de repostería y tiene una trayectoria de más de 4 años dentro del mercado. Inició con ventas por medio de redes sociales y de ahí la empresa quiere expandir su mercado a la venta por medio de una página web donde se presente un catálogo de productos, selección de productos y envíos a domicilio. </p>
-							<p>La cocina es un lenguaje mediante el cual se puede expresar armonía, creatividad, felicidad, belleza, poesía, complejidad, magia, humor, provocación y cultura</p>
-							<p><a href="shop.html" class="btn btn-primary">Compra ahora</a></p>
-						</div>
+                 </div>
+                  </div>
+                  </div>
+          </div>
+	          </form><!-- END -->
 					</div>
-				</div>
-			</div>
-		</section>
-
-		
-      <section class="ftco-section">
-			<div class="container">
-				<div class="row no-gutters ftco-services">
-          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services mb-md-0 mb-4">
-              <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
-                  <span><img src="img/transporte.png" style="width: 50px"></span>
-              </div>
-              <div class="media-body">
-                <h3 class="heading">A domicilio gratis</h3>
-                <span>Ordenes mayores a ₡40 mil</span>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services mb-md-0 mb-4">
-              <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
-            		<span><img src="img/calidad.png" style="width: 50px"></span>
-              </div>
-              <div class="media-body">
-                <h3 class="heading">Siempre Fresco</h3>
-                <span>Productos bien empacados</span>
-              </div>
-            </div>    
-          </div>
-          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services mb-md-0 mb-4">
-              <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
-                    <span><img src="img/icono_estrella.png" style="width: 50px"></span>
-              </div>
-              <div class="media-body">
-                <h3 class="heading">Calidad Superior</h3>
-                <span>Productos de Calidad</span>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services mb-md-0 mb-4">
-              <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
-                    <span><img src="img/soporte.png" style="width: 50px"></span>
-              </div>
-              <div class="media-body">
-                <h3 class="heading">Soporte</h3>
-                <span>Soporte 24/7</span>
-              </div>
-            </div>      
-          </div>
+					<div class="col-xl-5">
+	          <div class="row mt-5 pt-3">
+	          	<div class="col-md-12 d-flex mb-5">
+	          		<div class="cart-detail cart-total p-3 p-md-4">
+	          			<h3 class="billing-heading mb-4">Total del Carrito</h3>
+	          			<p class="d-flex">
+		    						<span>Subtotal</span>
+		    						<span></span>
+		    					</p>
+		    					<p class="d-flex">
+		    						<span>Envio</span>
+		    						<span></span>
+		    					</p>
+		    					<hr>
+		    					<p class="d-flex total-price">
+		    						<span>Total</span>
+		    						<span></span>
+		    					</p>
+								</div>
+	          	</div>
+	          	<div class="col-md-12">
+	          		<div class="cart-detail p-3 p-md-4">
+	          			<h3 class="billing-heading mb-4">Metodo de pago</h3>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2">Tarjeta debito/credito</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2">Efectivo</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-md-12">
+											<div class="radio">
+											   <label><input type="radio" name="optradio" class="mr-2"> Sinpe</label>
+											</div>
+										</div>
+									</div>
+									
+									<p><a href="#"class="btn btn-primary py-3 px-4">Enviar la orden</a></p>
+								</div>
+	          	</div>
+	          </div>
+          </div> <!-- .col-md-8 -->
         </div>
-			</div>
-		</section>
-
-   <footer class="ftco-footer ftco-section">
+      
+    
+      <footer class="ftco-footer ftco-section">
       <div class="container">
       	<div class="row">
       		<div class="mouse">
@@ -173,8 +237,7 @@
 							<div class="mouse-wheel"><span><img src="img/up.png" style="width: 20px"></span></span></div>
 						</a>
 					</div>
-      	</div>
-        <div class="row mb-5">
+    <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Hands Gourmet</h2>
@@ -220,6 +283,7 @@
 	                <li><a href="#"><span><img src="img/correo.png" style="width: 20px"></span> <span class="text">handsgourmet@gmail.com</span></a></li>
 	              </ul>
 	            </div>
+	            </div>
             </div>
           </div>
         </div>
@@ -231,7 +295,6 @@
         </div>
       </div>
     </footer>
-    
     
   
 
@@ -255,6 +318,43 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+
+  <script>
+		$(document).ready(function(){
+
+		var quantitiy=0;
+		   $('.quantity-right-plus').click(function(e){
+		        
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+		            
+		            $('#quantity').val(quantity + 1);
+
+		          
+		            // Increment
+		        
+		    });
+
+		     $('.quantity-left-minus').click(function(e){
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+		      
+		            // Increment
+		            if(quantity>0){
+		            $('#quantity').val(quantity - 1);
+		            }
+		    });
+		    
+		});
+	</script>
     
   </body>
 </html>
